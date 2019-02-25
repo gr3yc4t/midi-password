@@ -45,4 +45,4 @@ optional arguments:
 ```
 In case no argument is passed, the script asks for input interactively.
 ### How does it work
-The script simply fetches MIDI events in real time, and store every note ("note on" event in particular) in a buffer, that in the end is passed througth the <a href="https://en.wikipedia.org/wiki/PBKDF2">PBKDF2</a> key derivation function along with a used defined salt.  
+The script simply fetches MIDI events in real time, and store every note ("note on" event in particular) in a buffer, that in the end is passed through the <a href="https://en.wikipedia.org/wiki/PBKDF2">PBKDF2</a> key derivation function along with a used defined salt.  
